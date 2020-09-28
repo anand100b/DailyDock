@@ -8,6 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import {firebaseConfig} from './config/firebase'
 // firebase library
 import * as firebase from 'firebase'
+
 // initialise app
 if ( !firebase.apps.length ){
   firebase.initializeApp( firebaseConfig )
